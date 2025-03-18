@@ -1,9 +1,14 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /api
+
 spring:
   application:
     name: dify-demo
 
 dify:
-  url: http://localhost/v1/chat-messages
+  url: http://192.168.23.94:80/v1
   key:
-    test: app-y67TVu9T8tZ6r2UUMBJ6wm8R
+    test: app-6A4kp1PbcLlrhVY5xo8SmgBM
 
